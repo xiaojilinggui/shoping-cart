@@ -1,0 +1,109 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.goshop-main-coat{
+	width: 1152px;
+  margin: 100px auto;
+  background: #f1f1f1;
+  border-radius: 15px;
+}
+.goshop-main-head{
+  list-style: none;
+  display: flex;
+  height: 50px;
+  background: #4fc0f394;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  align-items: center;
+  color: #fff;
+  padding:0 50px;
+}
+
+.goshop-main-list{
+  display: flex;
+  align-items: center;
+  padding:10px 10px;
+  margin: 0 auto;
+  width: 1052px;
+  border-bottom: 1px solid #99999952;
+}
+.goshop-main-item{
+  height: 110px;
+    display: flex;
+    align-items: center;
+    width: 950px;
+}
+.goshop-item-headline{
+    height: 90px;
+    width: 380px;
+    margin: 0 20px;
+}
+.goshop-item-headline span{
+  font-size: 16px;
+  margin-bottom: 10px;
+  width: 380px;
+  display: inline-block;
+}
+.choose{
+  display: inline-block;
+    font-size: 13px;
+    background: #ef8e8eb5;
+    color: #fff;
+    padding: 5px;
+    border-radius: 20px;
+}
+.goshop-item-money{
+  width: 130px;
+}
+.goshop-item-number{
+  display: inline-flex;
+  width: 190px;
+}
+.reduce{
+  height: 23px;
+  width: 15px;
+  vertical-align: middle;
+  background: #ccc;
+  text-align: center;
+  display: inline-block;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+}
+.add{
+  height: 23px;
+  width: 15px;
+  vertical-align: middle;
+  background: #ccc;
+  text-align: center;
+  display: inline-block;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.goshop-item-number input{
+  width: 50px;
+  padding: 2px 0;
+  outline: none;
+}
+.goshop-main-close{
+  margin-top: 20px;
+  background: #f1f1f1;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  text-align: right;
+}
+.close-money{
+  text-align: right;
+  color: red;
+  padding: 20px 40px 0px 5px;
+}
+.goclose{
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  background: #ef2222c2;
+  padding: 13px 32px;
+  border-radius: 4px;
+  margin: 10px;
+  margin-right: 40px;
+}

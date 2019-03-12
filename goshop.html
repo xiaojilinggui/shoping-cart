@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>购物车</title>
+  <link rel="stylesheet" type="text/css" href="css/goshop.css">
+</head>
+<body>
+<div class="goshop-main-coat">
+	<div class="goshop-main-caitainer">
+		<ul class="goshop-main-head">
+      <input type="checkbox" name="all" style="zoom:150px; width: 30px;" id="allcheckbox" >
+			<li class="head-text" style="width: 90px;">全选</li>
+			<li class="head-text" style="width: 500px;">物品名称</li>
+			<li class="head-text" style="width: 150px;">金额</li>
+			<li class="head-text" style="width: 150px;">数量</li>
+			<li class="head-text" >操作</li>
+		</ul>
+    <div class="goshop-main-list" id="goshopList">
+      <input type="checkbox" name="dang" style="zoom:150px; width: 30px;">
+      <div class="goshop-main-item">
+        <a href="javaScript:;">
+          <img src="img/x-1.jpg">
+        </a>
+        <dl class="goshop-item-headline">
+          <span>【实战训练】 购物车制作</span>
+          <p class="choose">物品参数选择</p>
+        </dl>
+        <div class="goshop-item-money">
+          <div class="item-1">
+            <em>¥</em>
+            <span id="number-close">299.00</span>
+          </div>
+        </div>
+        <div class="goshop-item-number">
+          <span class="reduce" id="reduce"> - </span>
+          <input type="number" id="num-inp" class="num-inp" value="1" title="请输入购买量" >
+          <span class="add" id="add"> + </span>
+        </div>
+        <div class="goshop-item-operation">
+          <p id="remove">x</p>
+        </div>
+      </div>
+    </div>
+	</div>
+  <div class="goshop-main-close">
+    <div class="close-money">
+      <span style="font-size: 15px;">总金额：</span>
+      <em>¥</em><span id="money-red" style="font-size: 18px;margin-left: 10px;">299.00</span>
+    </div>
+    <a href="javascript:;" id="goclose" class="goclose">去结算</a>
+  </div>
+</div>
+</body>
+<script type="text/javascript" src="js/jishuqi.js"></script>
+</html>
